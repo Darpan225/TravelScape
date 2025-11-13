@@ -1,0 +1,146 @@
+TravelScape - Find Your Next Escape 
+
+************* 24/7 could be change later **************
+
+*** Background color  to change once we done MOST IMP -----> DONE
+*** Hero travel to change once we done -----> DONE
+
+hero-subtitle = "Travel. Dream. Discover India."
+hero-title = Travel India and discover the rhythm of a billion dreams.
+
+hero-text = Your journey, our expertise — explore India’s incredible wonders with comfort, elegance, and care.
+button wrapper = Plan Your Next Escape
+
+
+*** Hero button image to change once we done -----> DONE
+
+
+#------------ Service ------------#
+
+What We Serve
+
+Best Values For You
+
+Discover amazing travel benefits by choosing our trusted travel services
+
+alt = icon
+
+Endless Destinations
+Discover 150+ popular destinations across the country.
+
+Discover With Locals
+Explore authentic India with guides who live it every day.
+
+Hassle-Free Booking
+Quick, secure, and effortless travel reservations every time.
+
+
+ <!-------------------------- Destination ---------------------------->
+
+Popular Destinations
+
+Discover Popular Destinations
+
+Breathe the Beauty of Sonmarg
+
+Kolkata’s Iconic Steel Marvel, Standing Strong Since 1943
+
+Crown of Jaipur, A Majestic Marvel Breathing Jaipur’s Royal Heritage
+
+Floating Paradise, Sailing Dreams Through God’s Own Country
+
+Soul of the Himalayas, Unveiling the Hidden Mysteries of Himalayas
+
+Where the Ganges Whispers Ancient Prayers
+
+View All Destination
+
+ <!-------------------------- Experience  ---------------------------->
+
+
+alt = experience banner
+alt = 24/7 guide support
+
+Our Experience
+
+Our Experience Leads The Way To Your Perfect Journey.
+
+
+Your convenience has been our mission since day one — with low prices, an effortless process, and trusted service.
+
+20
+Years 
+Experience
+
+450+
+Destination 
+Collaboration
+
+
+50k+
+
+Happy 
+Customers
+
+ <!-------------------------- Gallery ---------------------------->
+
+
+Photo Gallery
+
+Through the Lens of Travelers
+
+alt= gallery
+
+
+ <!-------------------------- CTA ---------------------------->
+
+Pack Your Dreams & Escape into the Beauty of the World
+
+alt = icon
+
+We have many Special offers especially for you.
+ 
+ Get started 
+
+
+
+  <!-------------------------- Footer ---------------------------->
+
+    alt = logo
+
+ We always delight our 
+ customers with endless travel choices.
+
+About
+About Us
+Features
+News
+Menu
+
+Company
+Why Company
+Partner With Us
+FAQ
+Blog
+
+Support
+Account
+Support Center
+Feedback
+Contact Us
+Accessibility
+
+Get in Touch
+Question or feedback? We’d love to hear from you.
+
+placeholder = Email Address
+
+aria-label = send a message
+<ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+
+Copyright 2023. Made by
+
+Terms and Condition
+Privacy and Policy
+
+

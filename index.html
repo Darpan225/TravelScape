@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta tags-->
+    <title>TravelScape</title>
+    <meta name="title" content="TravelScape">
+    <meta name="descrption" content="This is a tour travel website project using html CSS JavaScript ">
+
+    <!--------------- adding favicon ------------------->
+
+    <link rel="icon" type="image/png" href="favicon.PNG">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!------------------ CSS file ------------------------->
+
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+
+    <!------------------ preload Image ------------------------->
+    <link rel="preload" as="image" href="./Assets/Images/hero-banner.jpg">
+    <link rel="stylesheet" as="image" href="./Assets/Images/preload-image.png">
+
+
+</head>
+
+<body>
+
+
+    <!-------------------- Preloader ----------------------->
+
+    <div class="preloader" data-preloader>
+        <div class="preloader-inner">
+            <video autoplay muted loop playsinline>
+                <source src="./Assets/Images/preloader.mp4" type="video/mp4">
+        </div>
+    </div>
+
+    <!------------------ Header ------------------------>
+
+    <div class="header " data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./Assets/Images/logo.svg" width="250" height="80" alt="logo">
+            </a>
+
+        </div>
+    </div>
+
+
+    <!--------------------- Navbar ----------------------->
+
+    <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+            <a href="#" class="logo">
+                <img src="./Assets/Images/logo.svg" width="250" height="80" alt="logo">
+            </a>
+
+            <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+            <li class="navbar-item">
+                <a href="#" class="navbar-link ">Home</a>
+
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">About</a>
+
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Services</a>
+
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Pricing</a>
+
+            </li>
+            <li class="navbar-item">
+                <a href="#" class="navbar-link">Contact</a>
+
+            </li>
+
+        </ul>
+
+        <!------------------ LogIN & Signup ------------------------>
+
+        <div class="header-action">
+
+            <a href="#" class="login-btn">Login</a>
+
+            <a href="#" class="btn btn-primary">Sign Up</a>
+
+        </div>
+
+    </nav>
+
+    <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+    </button>
+
+    <div class="overlay" data-overlay data-nav-toggler></div>
+
+    <!------------------ End of Login and Signup section ------------------------>
+
+
+    <main>
+        <article>
+
+            <!-------------------------- HERO section  --------------------------------->
+            <section class="section hero has-bg-image" aria-label="hero"
+                style="background-image: url('./Assets/Images/hero-bg.png')">
+
+                <div class="container">
+
+                    <div class="hero-content">
+
+                        <p class="hero-subtitle"> Travel. Dream. Discover. <img src="./Assets/Images/title-icon.svg"
+                                width="30" height="30" alt="travel icon" class="img">
+
+                        </p>
+
+                        <h1 class="h1 title hero-title">
+                            Travel India And Discover The Rhythm Of A Billion Dreams
+                        </h1>
+
+                        <p class="hero-text">
+                            Your journey, our expertise — explore India’s incredible wonders with comfort, elegance, and
+                            care.
+                        </p>
+
+                        <div class="wrapper">
+
+                            <a href="#" class="btn btn-secondary">
+                                <span class="span"> Plan Your Next Escape </span>
+
+                                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+                            </a>
+
+                            <button class="hero-btn">
+
+                                <div class="btn-img">
+                                    <img src="./Assets/Images/hero-btn-image.png" width="180" height="120"
+                                        alt="our story" class="img-cover">
+                                    <ion-icon name="play" aria-hidden="true"></ion-icon>
+
+                                </div>
+
+                                <p class="text"> Watch our Story </p>
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                    <figure class="hero-banner">
+
+                        <img src="./Assets/Images/hero-banner.jpg" width="631" height="735" alt="hero banner"
+                            class="w-100">
+
+                    </figure>
+
+                </div>
+            </section>
+
+
+            <!--------------------------- Service Section  -------------------------------->
+
+            <section class="section service" aria-label="service">
+                <div class="container">
+
+                    <div class="title-wrapper">
+
+                        <p class="section-subtitle">
+                            What We Serve
+                        </p>
+
+                        <h2 class="h2 title section-title"> Best Values For You </h2>
+
+                        <p class="section-text">
+                            Discover amazing travel benefits by
+                            choosing our trusted travel services
+                        </p>
+
+
+                    </div>
+
+                    <div class="service-card">
+
+                        <div class="card-icon">
+
+                            <img src="./Assets/Images/icon1.svg" width="70" height="70" loading="lazy" alt="icon">
+                        </div>
+
+                        <h3 class="h3 title card-title"> Endless Destinations </h3>
+
+                        <p class="card-text">
+                            Discover 150+ popular destinations across the country.
+                        </p>
+
+                    </div>
+
+                    <div class="service-card">
+
+                        <div class="card-icon">
+
+                            <img src="./Assets/Images/icon2.svg" width="70" height="70" loading="lazy" alt="icon">
+                        </div>
+
+                        <h3 class="h3 title card-title"> Discover With Locals </h3>
+
+                        <p class="card-text">
+                            Explore authentic India with guides who live it every day.
+                        </p>
+
+                    </div>
+
+
+                    <div class="service-card">
+
+                        <div class="card-icon">
+
+                            <img src="./Assets/Images/icon3.svg" width="70" height="70" loading="lazy" alt="icon">
+                        </div>
+
+                        <h3 class="h3 title card-title"> Hassle-Free Booking </h3>
+
+                        <p class="card-text">
+                            Quick, secure, and effortless travel reservations every time.
+                        </p>
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <!-------------------------- Destination section  ---------------------------->
+
+            <section class="section desti" aria-label="destination">
+
+                <div class="container">
+
+                    <p class="section-subtitle"> Popular Destinations</p>
+
+                    <h2 class="h2 title section-title">Discover Popular Destinations</h2>
+
+                    <ul class="desti-list">
+
+                        <li>
+
+                            <div class="desti-card">
+
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+
+                                    <img src="./Assets/Images/Kashmir_Sonmarg.jpg" width="600" height="650"
+                                        loading="lazy" alt="Breathe the Beauty of Sonmarg" class="img-cover">
+
+                                    <span class="card-price">₹18,000</span>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">
+                                            Kashmir Where Heaven Touches Earth
+                                        </a>
+                                    </h3>
+
+                                    <address class="card-text">
+                                        Sonmarg, Kashmir
+                                    </address>
+
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                                            4.9
+                                        </span>
+
+                                        <p class="rating-text">(11.1k Reviews)</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                        <li>
+
+                            <div class="desti-card">
+
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+
+                                    <img src="./Assets/Images/Kolkata_Howrah Bridge.jpg" width="600" height="650"
+                                        loading="lazy" alt="Kolkata's Iconic Steel Marvel" class="img-cover">
+
+                                    <span class="card-price">₹14.999</span>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">
+                                            Kolkata's Iconic Steel Marvel, Standing Strong Since 1943
+                                        </a>
+                                    </h3>
+
+                                    <address class="card-text">
+                                        Kolkata, Bengal
+                                    </address>
+
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                                            4.5
+                                        </span>
+
+                                        <p class="rating-text">(10.8k Reviews)</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                        <li>
+
+                            <div class="desti-card">
+
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+
+                                    <img src="./Assets/Images/Jaipur_Hawa Mahal.jpg" width="600" height="650"
+                                        loading="lazy" alt="Crown of Jaipur" class="img-cover">
+
+                                    <span class="card-price">₹16,000</span>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">
+                                            A Majestic Marvel Breathing Jaipur’s Royal Heritage
+                                        </a>
+                                    </h3>
+
+                                    <address class="card-text">
+                                        Jaipur, Rajasthan
+                                    </address>
+
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                                            4.3
+                                        </span>
+
+                                        <p class="rating-text">(11.5k Reviews)</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                        <li>
+
+                            <div class="desti-card">
+
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+
+                                    <img src="./Assets/Images/Kerala_Alappuzha.jpg" width="600" height="650"
+                                        loading="lazy" alt="Floating Paradise" class="img-cover">
+
+                                    <span class="card-price">₹17,000</span>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">
+                                            Sailing Through God’s Own Country
+                                        </a>
+                                    </h3>
+
+                                    <address class="card-text">
+                                        Alappuzha, Kerala
+                                    </address>
+
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                                            4.8
+                                        </span>
+
+                                        <p class="rating-text">(13.6k Reviews)</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                        <li>
+
+                            <div class="desti-card">
+
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+
+                                    <img src="./Assets/Images/Himachal_Spiti Valley.jpg" width="600" height="650"
+                                        loading="lazy" alt="Soul of the Himalayas" class="img-cover">
+
+                                    <span class="card-price">₹22,000</span>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">
+                                            Unveiling the Hidden Mysteries of Himalayas
+                                        </a>
+                                    </h3>
+
+                                    <address class="card-text">
+                                        Spiti Valley, Himachal Pradesh
+                                    </address>
+
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                                            4.9
+                                        </span>
+
+                                        <p class="rating-text">(15.3k Reviews)</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                        <li>
+
+                            <div class="desti-card">
+
+                                <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+
+                                    <img src="./Assets/Images/UP_Varanasi.jpg" width="600" height="650" loading="lazy"
+                                        alt="Divine Varanasi" class="img-cover">
+
+                                    <span class="card-price">₹13,000</span>
+                                </div>
+
+                                <div class="card-content">
+
+                                    <h3 class="h3 title">
+                                        <a href="#" class="card-title">
+                                            Where the Ganges Whispers Ancient Prayers
+                                        </a>
+                                    </h3>
+
+                                    <address class="card-text">
+                                        Varanasi, Uttar Pradesh
+                                    </address>
+
+                                    <div class="card-rating">
+                                        <span class="span">
+                                            <ion-icon name="star" aria-hidden="true"></ion-icon>
+
+                                            4.3
+                                        </span>
+
+                                        <p class="rating-text">(9.6k Reviews)</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+
+                    <a href="#" class="btn btn-primary"> View All Destination </a>
+
+
+
+                </div>
+
+            </section>
+
+
+            <!-------------------------- Experience section  ---------------------------->
+
+            <section class="section exp" aria-label="experience">
+                <div class="container">
+
+                    <div class="exp-content">
+
+                        <p class="section-subtitle">
+                            Our Experience
+                        </p>
+
+                        <h2 class="h2 title section-title">Our Experience Leads The Way To Your
+                            Perfect Journey.</h2>
+
+                        <p class="section-text">
+                            Your convenience has been our mission since day one with low prices,
+                            an effortless process, and trusted service.
+                        </p>
+
+                        <ul class="exp-list">
+
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">20</h3>
+
+                                <p class="item-text">
+                                    Years <br>
+                                    Experience
+
+                                </p>
+
+                            </li>
+
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">450+</h3>
+
+                                <p class="item-text">
+                                    Destination<br>
+                                    Collaboration
+
+                                </p>
+
+                            </li>
+
+                            <li class="exp-item">
+                                <h3 class="h3 title item-title">50K+</h3>
+
+                                <p class="item-text">
+                                    Happy <br>
+                                    Customerse
+
+                                </p>
+
+                            </li>
+
+
+
+
+                        </ul>
+
+
+                    </div>
+
+                    <!------------------- 24/7 could be change later ---------------------------------->
+                    <figure class="exp-banner">
+
+                        <img src="./Assets/Images/experience-banner.png" width="550" height="660" loading="lazy"
+                            alt="experience banner" class="w-100">
+
+                        <img src="./Assets/Images/exp-shape.svg" width="75" height="109" loading="lazy"
+                            alt="24/7 Guide Support" class="exp-shape">
+
+                    </figure>
+
+
+                </div>
+            </section>
+
+
+            <!-------------------------- Gallery section  ---------------------------->
+
+            <section class="section gallery" aria-label="gallery">
+
+                <div class="container">
+
+                    <p class="section-subtitle"> Photo Gallery </p>
+
+                    <h2 class="h2 title section-title">
+                        Through the Lens of Travelers
+                    </h2>
+
+                    <ul class="gallery-list">
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/sikkim2.jpg" width="700" height="925" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/Delhi1.jpg" width="700" height="925" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/Kerala.jpg" width="700" height="840" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/Kol2.jpg" width="700" height="840" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/sikkim.jpg" width="700" height="840" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/mumbai1.jpg" width="700" height="348" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/Punjab.jpg" width="700" height="348" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/rajasthan.jpg" width="700" height="348" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/Spiti.jpg" width="700" height="925" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                        <li class="gallery-item">
+
+                            <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+
+                                <img src="./Assets/Images/gal/Tamilnadu1.jpg" width="700" height="348" loading="lazy"
+                                    alt="gallery" class="img-cover">
+
+                            </figure>
+
+
+                        </li>
+
+                    </ul>
+
+
+                </div>
+            </section>
+
+
+
+            <!---------------------------------- Call To Action #CTA ----------------------------------->
+
+            <section class="section cta" aria-label="call to action">
+
+                <div class="container">
+
+                    <div class="cta-card has-bg-image" style="background-image: url('./Assets/Images/cta-bg.jpg')">
+
+                        <h2 class="h2 title section-title">
+                            Pack Your Dreams & Escape into the Beauty of the World
+
+                            <img src="./Assets/Images/title-icon.svg" width="36" height="36" loading="lazy" alt="icon"
+                                class="img">
+                        </h2>
+
+                        <p class="section-text">
+                            We have many special offers especially for you.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">Get Started</a>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+
+    </main>
+
+
+
+    <!---------------------------------- Footer ----------------------------------->
+
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+
+                        <img src="./Assets/Images/logo.svg" width="187" height="38" alt="logo">
+                    </a>
+
+                    <p class="footer-text">
+                        We always delight our customers
+                        with endless travel choices.
+                    </p>
+
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+
+
+
+                    </ul>
+
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">About</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Features</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">News</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Menu</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Company</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Why Company</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Partner With Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Blog</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Support</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Account</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Support Center</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Feedback</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Contact Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link"> Accessibility </a>
+                    </li>
+
+                </ul>
+
+
+                <div class="footer-list">
+
+                    <p class="footer-list-title">Get In Touch </p>
+
+                    <p class="footer-text">
+                        Question or Feedback? We'd love to hear from you.
+                    </p>
+
+                    <form action="" class="input-wrapper">
+
+                        <input type="email" name="email_address" placeholder="Email Address" autocomplete="off" required
+                            class="input-field">
+
+                        <button type="submit" class="input-btn" aria-label="send a messageg">
+                            <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+
+                        </button>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p class="copyright">
+                    Copyright 2025. Made by
+                    <a href="www.linkedin.com/in/darpan-biswas-856379168" class="copyright-link">Darpan Biswas</a>
+                </p>
+
+                <ul class="footer-bottom-list">
+
+                    <li>
+                        <a href="#" class="footer-bottom-link">Terms and Condition</a>
+                    </li>
+
+                     <li>
+                        <a href="#" class="footer-bottom-link">Privacy and Policy</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+    <!-------------------------- JS link ---------------------------->
+
+    <script src="./Assets/JavaScript/script.js"></script>
+
+
+    <!----------------------------- ionicon ------------------------->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
+
